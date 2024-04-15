@@ -2,15 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1440px; /* Adjust as needed */
+    margin: 0 auto; /* Automatically centers the container horizontally */
+    padding: 20px;
+    background-color: #f0f0f0; /* Optional: Adding a background color for the container */
 }
 
 header {
     background-color: #333;
-    color: #fff;
     padding: 10px 0;
-    text-align: center;
-    border-bottom: 2px solid #222;
 }
 
 nav ul {
@@ -32,4 +35,20 @@ nav ul li a {
     padding: 10px 20px;
     border-radius: 5px;
     background-color: #555;
-    transition: background-col
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #777;
+}
+
+main {
+    padding-top: 60px; /* Adjust for the height of the header */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
