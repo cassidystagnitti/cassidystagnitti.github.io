@@ -4,45 +4,27 @@ body {
     padding: 0;
 }
 
-.container {
-    display: flex;
-}
-
-.sidebar {
+header {
     background-color: #333;
     color: #fff;
-    width: 200px;
-    padding: 20px;
+    padding: 10px;
 }
 
-.sidebar ul {
+nav ul {
     list-style-type: none;
     padding: 0;
 }
 
-.sidebar ul li {
-    margin-bottom: 10px;
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
 }
 
-.sidebar ul li a {
+nav ul li a {
     color: #fff;
     text-decoration: none;
-    display: block;
-}
-
-.sidebar ul li a:hover {
-    background-color: #555;
 }
 
 main {
-    flex: 1;
     padding: 20px;
-}
-
-h1 {
-    color: #333;
-}
-
-p {
-    color: #555;
 }
