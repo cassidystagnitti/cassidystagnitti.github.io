@@ -39,21 +39,6 @@ main {
   padding: 20px;
 }
 
-h1, h2 {
-  font-family: 'Roboto Slab', serif;
-  color: #0056b3;
-}
-
-.cta-button {
-  display: inline-block;
-  background-color: #0056b3;
-  color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 20px;
-}
-
 
 .section {
     height: 500px;
