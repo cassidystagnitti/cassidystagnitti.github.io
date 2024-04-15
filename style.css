@@ -5,50 +5,44 @@ body {
 }
 
 .container {
-    max-width: 1440px; /* Adjust as needed */
-    margin: 0 auto; /* Automatically centers the container horizontally */
-    padding: 20px;
-    background-color: #f0f0f0; /* Optional: Adding a background color for the container */
+    display: flex;
 }
 
-header {
+.sidebar {
     background-color: #333;
-    padding: 10px 0;
+    color: #fff;
+    width: 200px;
+    padding: 20px;
 }
 
-nav ul {
+.sidebar ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
-    text-align: center;
 }
 
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
+.sidebar ul li {
+    margin-bottom: 10px;
 }
 
-nav ul li a {
+.sidebar ul li a {
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: #555;
-    transition: background-color 0.3s ease;
+    display: block;
 }
 
-nav ul li a:hover {
-    background-color: #777;
+.sidebar ul li a:hover {
+    background-color: #555;
 }
 
 main {
-    padding-top: 60px; /* Adjust for the height of the header */
+    flex: 1;
+    padding: 20px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
 }
