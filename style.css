@@ -1,26 +1,60 @@
-/* Resetting default browser styles */
-body, h1, h2, p, ul, li {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Body styles */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-/* Header styles */
 header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
-header h1 {
-    font-size: 2em;
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-/* Navigation styles */
-nav ul {
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+main {
+    padding-top: 40px; /* Adjust for the fixed navbar */
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
