@@ -42,11 +42,11 @@ body, html {
   width: 100%;
 }
 .navbar a {
-  float: left;
+  float: center;
   display: text;
   color: #2B2B2B;
   text-align: center;
-  padding: 80px 20px;
+  padding: 16px 16px;
   text-decoration: none;
   font-size: 30px;
 }
@@ -55,6 +55,6 @@ body, html {
   color: black;
 }
 .navbar a.active {
-  background-color: #04AA6D;
+  background-color: #ddd;
   color: white;
 }
