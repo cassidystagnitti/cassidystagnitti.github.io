@@ -17,15 +17,12 @@ body, html {
 /* The hero image */
 .hero-image {
   background-image: url(IMG_5003.jpeg);
-
-  /* Set a specific height */
   height: 100%;
-
-  /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: fixed;
+  z-index: -1;
 }
 
 /* Place text in the middle of the image */
