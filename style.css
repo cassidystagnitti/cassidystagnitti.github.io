@@ -34,6 +34,23 @@ body {
   background-color: #04AA6D;
   color: white;
 }
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("IMG_5003.jpeg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+}
 header {
     width: 100%;
     height: 100%;
