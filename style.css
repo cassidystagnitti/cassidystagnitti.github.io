@@ -54,8 +54,5 @@ body, html {
   background-color: #ddd;
   color: black;
 }
-.navbar a.active {
-  background-color: #3004aa;
-  color: white;
-}
+
 
