@@ -24,7 +24,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 30px;
 }
 .navbar a:hover {
   background-color: #ddd;
@@ -34,6 +34,11 @@ body {
   background-color: #04AA6D;
   color: white;
 }
+.section {
+    height: 700px;
+    width: 100%
+}
+    
 body, html {
   height: 100%;
 }
