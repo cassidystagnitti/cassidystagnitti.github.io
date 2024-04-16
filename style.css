@@ -16,8 +16,7 @@ body, html {
 
 /* The hero image */
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("IMG_5003.jpeg");
+  background-image: url(IMG_5003.jpeg);
 
   /* Set a specific height */
   height: 100%;
@@ -79,39 +78,10 @@ body, html {
 .sticky + .content {
   padding-top: 60px;
 }
-
-.section {
-    height: 700px;
-    width: 100%
-}
     
 body, html {
   height: 100%;
 }
-
-.bg {
-  /* The image used */
-  background-image: url("IMG_5003.jpeg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed;
-}
-header {
-    width: 100%;
-    height: 100%;
-    background-image: url('IMG_5003.jpeg');
-    color: #fff;
-    padding: 40px;
-    font-size: 50%larger;
-    z-index: 1000;
-}
-
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -130,14 +100,4 @@ nav ul li a {
 main {
   padding: 20px;
 }
-footer {
 
-.section {
-    height: 500px;
-    padding: 20px;
-    background-image: url("IMG_5003.jpeg")
-}
-
-.section h2 {
-    margin-bottom: 10px;
-}
