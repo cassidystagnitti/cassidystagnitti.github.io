@@ -85,11 +85,11 @@ main {
   padding: 20px;
 }
 footer {
-    
 
 .section {
     height: 500px;
     padding: 20px;
+    background-image: url("IMG_5003.jpeg")
 }
 
 .section h2 {
