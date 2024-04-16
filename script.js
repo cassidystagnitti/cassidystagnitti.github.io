@@ -15,5 +15,6 @@ function makeNavbarSticky() {
   window.addEventListener('scroll', stickyNavbar);
 }
 
+
 // Call the makeNavbarSticky function when the DOM content is fully loaded
 document.addEventListener('DOMContentLoaded', makeNavbarSticky);
