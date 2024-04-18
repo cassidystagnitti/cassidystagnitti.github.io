@@ -35,6 +35,17 @@ body, html {
     display: inline
 }
 
+#cassidy {
+    color: #36333E;
+    padding-right: 8px;
+}
+
+#stagnitti {
+    color: #F7EFE5;
+    padding-left: 8px;
+}
+
+
 #navbar {
   background-color: #FFFCF5;
   overflow: hidden;
