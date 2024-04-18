@@ -1,5 +1,10 @@
+@font-face {
+      font-family: FirstFont;
+  src: url(AMOQz46as3KIBPeWgnA9kuYMUg.ttf);
+}
+
 body {
-    font-family: Arial,sans serif;
+    font-family: FirstFont;
     background-color: #F7EFE5;
     margin: 0px;
     padding: 0px;
