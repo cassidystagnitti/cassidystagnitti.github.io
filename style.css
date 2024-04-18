@@ -67,7 +67,10 @@ td {
     padding-right: 40px;
     padding-bottom: 10px;
     padding-top: 10px;
+    margin: 8px;
     text-align: center;
+    background-color: #FFFCF5;
+    corner-radius: 5
 }
 
 table {
