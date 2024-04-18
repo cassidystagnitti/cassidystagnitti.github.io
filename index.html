@@ -51,6 +51,47 @@
     </table>
 </div>
 <hr>
+<div class="content">
+  <h2>About Me</h2>
+  <p> I am a technology professional with a passion for product design. 
+      I’ve worked for tech startup for 4 years and enjoy the fast paces,
+      collaborative environment involved in startups. I’ve taken courses 
+      on design,  coding, and UI.  </p>
+</div>
+<hr>
 
+<div class="content">
+    <h2>Experience and Skills</h2>
+    <table>
+        <tr> 
+          <td>Ten Percent Happier</td>
+          <td>UI UX at <br>Dribbble Academy</td>
+        </tr>
+        <tr>
+            <td>AWS Basics at<br>Cloud Academy</td>
+            <td>SQL Basics at<br>CodeAcademy</td>
+        </tr>
+        <tr>   
+            <td>Glenville BioSoil Farm</td>
+            <td>Ellison Estate Vineyards</td> 
+        </tr> 
+    </table>
+</div>
+<hr>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
 </body>
 </html>
