@@ -30,7 +30,10 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
+  margin-top: 46px;
+  margin-bottom: 46px;
 }
+
 .navbar a {
   color: #2B2B2B;
   text-align: center;
