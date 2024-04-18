@@ -36,8 +36,6 @@ body, html {
   position: fixed;
   bottom: 0;
   width: 100%;
-  margin-top: 46px;
-  margin-bottom: 46px;
 }
 
 .navbar a {
@@ -46,6 +44,8 @@ body, html {
   padding: 40px;
   text-decoration: none;
   font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .navbar a:hover {
   background-color: #ddd;
