@@ -1,14 +1,12 @@
 @font-face {
       font-family: Kulim;
       src: url(AMOQz46as3KIBPeWgnA9kuYMUg.ttf);
-}
-@font-face {
       font-family: KulimParkLight;
       src: url(kulimpark-extralight.tff);
 }
 
 body {
-    font-family: FirstFont;
+    font-family: Kulim;
     background-color: #F7EFE5;
     margin: 0px;
     padding: 0px;
