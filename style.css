@@ -67,10 +67,13 @@ td {
     padding-right: 40px;
     padding-bottom: 10px;
     padding-top: 10px;
+    text-align: center;
 }
 
 table {
     padding: 20px;
+    margin: auto;
+    width: 80%;
 }
     
 
