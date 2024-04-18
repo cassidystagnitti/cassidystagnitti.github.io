@@ -31,6 +31,9 @@ body, html {
   color: white;
   font-size: 40px;
 }
+#cassidy, #stagnitti {
+    display: inline
+}
 
 #navbar {
   background-color: #FFFCF5;
