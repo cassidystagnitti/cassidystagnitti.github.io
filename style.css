@@ -10,6 +10,7 @@ body {
 
 body, html {
     height: 100%;
+
 }
 
 p{
@@ -21,9 +22,9 @@ p{
 .hero-image {
   background-image: url(IMG_5003.jpeg);
   height: 100%;
+  width: 100%
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
   background-attachment: fixed;
 }
