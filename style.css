@@ -16,6 +16,10 @@ body, html {
     height: 100%;
 }
 
+p{
+      font-family: KulimParkLight;
+      color: #36333E;
+}
 
 /* The hero image */
 .hero-image {
