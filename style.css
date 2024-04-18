@@ -37,7 +37,7 @@ body, html {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.navbar a {
+#navbar a {
   color: #2B2B2B;
   text-align: center;
   padding: 40px;
@@ -45,7 +45,7 @@ body, html {
   font-size: 30px;
 }
 
-.navbar a:hover {
+#navbar a:hover {
   background-color: #ddd;
   color: black;
 }
