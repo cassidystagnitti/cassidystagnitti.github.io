@@ -3,13 +3,19 @@ html {
 }
 
 @font-face {
-      font-family: Kulim;
+      font-family: Koulen;
       src: url(AMOQz46as3KIBPeWgnA9kuYMUg.ttf);
 }
 
+@font-face {
+  font-family: Kulim;
+  src: url(KulimPark-ExtraLight.ttf);
+}
+
+
 body {
-    font-family: Kulim;
     background-color: #F7EFE5;
+    font-family: Kulim;
 }
 
 body, html {
@@ -17,12 +23,15 @@ body, html {
     margin: 0;
 }
 
-p{
+p {
       font-family: Kulim;
       color: #36333E;
 }
 
-/* The hero image */
+h1, h2 {
+  font-family: Koulen;
+}
+
 .hero-image {
   background-image: url(IMG_5003.jpeg);
   height: 100%;
@@ -33,7 +42,6 @@ p{
   background-attachment: fixed;
 }
 
-/* Place text in the middle of the image */
 .hero-text {
   text-align: center;
   position: absolute;
