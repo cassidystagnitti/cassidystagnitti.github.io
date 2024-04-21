@@ -86,21 +86,12 @@ h1, h2 {
   font-size: 30px;
 }
 
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-#navbar b {
-  color: #2B2B2B;
+span {
   font-family: Kulim;
-  text-align: center;
-  padding: 20px;
-  text-decoration: none;
-  font-size: 23px;
+  font-size: .8em;
 }
 
-#navbar b:hover {
+#navbar a:hover {
   background-color: #ddd;
   color: black;
 }
