@@ -35,8 +35,8 @@ h1, h2 {
 
 .hero-image {
   background-image: url(IMG_5003.jpeg);
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
