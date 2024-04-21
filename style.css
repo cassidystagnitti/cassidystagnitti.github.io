@@ -16,6 +16,7 @@ html {
 body {
     background-color: #F7EFE5;
     font-family: Kulim;
+    width: 100%;
 }
 
 body, html {
@@ -64,6 +65,11 @@ h1, h2 {
 #stagnitti {
     color: #F7EFE5;
 }
+
+#PMD {
+  color: #F7EFE5;
+}
+
 
 #navbar {
   background-color: #FFFCF5;
