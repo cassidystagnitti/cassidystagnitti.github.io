@@ -76,24 +76,26 @@ h1, h2 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-#navbar a {
+.nav-title {
   color: #2B2B2B;
   font-family: Koulen;
-  text-align: center;
+  text-align: left;
   padding: 40px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 1em;
 }
 
-.navcontent {
+.nav-content {
   font-family: Kulim;
   font-size: .8em;
   text-align: right;
+  color: #2B2B2B;
+  
 }
 
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
+.nav-content:hover {
+  color: #36333E;
+  animation: fadeIn 5s;
 }
 
 .content{
