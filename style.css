@@ -31,6 +31,10 @@ h1, h2 {
   font-family: Koulen;
 }
 
+h2 {
+  margin-top: 4em;
+}
+
 .hero-image {
   background-image: url(IMG_5003.jpeg);
   height: 100vh;
