@@ -56,7 +56,8 @@ h2 {
   font-size: 4em;
 }
 #cassidy, #stagnitti {
-    display: inline
+    display: inline;
+    padding-bottom: 0;
 }
 
 #cassidy {
