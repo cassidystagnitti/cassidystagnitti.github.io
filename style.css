@@ -76,18 +76,18 @@ h1, h2 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.nav-title {
+.nav-title a {
   color: #2B2B2B;
   font-family: Koulen;
   text-align: left;
   padding: 40px;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 2em;
 }
 
-.nav-content {
+.nav-content a{
   font-family: Kulim;
-  font-size: .8em;
+  font-size: 1.25em;
   text-align: right;
   color: #2B2B2B;
   
