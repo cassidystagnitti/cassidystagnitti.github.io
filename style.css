@@ -97,9 +97,9 @@ h2 {
 .nav-content a{
   font-family: Kulim;
   font-size: 2.25em;
-  text-align: right;
+  text-align: center;
   color: #2B2B2B;
-  padding: 2.5em;
+  padding: 1em;
   text-decoration: none;
   
 }
