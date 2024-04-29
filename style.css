@@ -119,6 +119,16 @@ h2 {
     text-align: center;
 }
 
+div.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
 td {
     padding-left: 40px;
     padding-right: 40px;
