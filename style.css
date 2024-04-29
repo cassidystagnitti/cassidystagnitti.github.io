@@ -99,14 +99,8 @@ h2 {
   font-size: 2vw;
   text-align: center;
   color: #2B2B2B;
-  padding: 1vw;
+  padding: 2vw;
   text-decoration: none;
-  
-}
-
-.nav-content:hover {
-  color: #36333E;
-  animation: fadeIn 5s;
 }
 
 .content{
