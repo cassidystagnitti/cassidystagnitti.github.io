@@ -91,12 +91,12 @@ h2 {
   text-align: left;
   padding: 1em;
   text-decoration: none;
-  font-size: 3em;
+  font-size: 3vw;
 }
 
 .nav-content a{
   font-family: Kulim;
-  font-size: 2.25em;
+  font-size: 2vw;
   text-align: center;
   color: #2B2B2B;
   padding: .75em;
