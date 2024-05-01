@@ -81,10 +81,10 @@ html {
 }
 
 @media screen and (max-width: 600px) {
-  .nav-content {display: none;}
+  .nav-content a {display: none;}
   .nav-content a.icon {
     float: right;
-    display: block;
+    display: block; 
   }
 }
 
