@@ -34,6 +34,7 @@ html {
 }
 
 #cassidy, #stagnitti {
+    font-family: Koulen;
     display: inline;
     padding-bottom: 0;
 }
@@ -48,11 +49,12 @@ html {
 }
 
 #PMD {
+  font-family: kulim;
   color: #F7EFE5;
   margin-top: 0;
   padding-top: 0;
   text-align: left;
-  margin-left: 40%;
+  margin-left: 35%;
 }
 
 #navbar {
@@ -68,7 +70,7 @@ html {
   text-align: left;
   padding: 1em;
   text-decoration: none;
-  font-size: 3vw;
+  font-size: 4vh;
 }
 
 .nav-content a{
@@ -76,7 +78,7 @@ html {
   font-size: 2vw;
   text-align: center;
   color: #2B2B2B;
-  padding: 2vw;
+  padding: 3vw;
   text-decoration: none;
 }
 
@@ -106,7 +108,10 @@ html {
   }
 }
 
-
+.sticky {
+  position: fixed;
+  top: 0;
+}
 
 /* For mobile phones: */
 [class*="col-"] {
