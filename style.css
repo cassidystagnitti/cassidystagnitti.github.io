@@ -125,7 +125,7 @@ h2 {
   align: center;
 }
 
-p.projectTitle {
+#projectTitle {
   width: 100%;
   background-color: #CCD8D8;
 }
