@@ -89,8 +89,8 @@ html {
 }
 
 @media screen and (max-width: 600px) {
-  .nav-content.responsive {position: relative;}
-  .nav-content.responsive .icon {
+  .responsive {position: relative;}
+  .responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
