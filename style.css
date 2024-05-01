@@ -113,14 +113,34 @@ h2 {
     text-align: center;
 }
 
-div.scroll-container {
-  overflow: auto;
-  white-space: nowrap;
-  padding: 10px;
+.container {
+  position: relative;
+  width: 90%-webkit-fill-available;
+  
 }
 
-div.scroll-container img {
-  padding: 10px;
+.image {
+  width: 80%;
+  height: auto;
+  align: center;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #9ab6bf;
+}
+
+.container:hover .overlay {
+  opacity: 1;
 }
 
 td {
