@@ -27,7 +27,7 @@ body {
     padding: 40px;
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 1.4em;
+    font-size: 1.6em;
     text-align: left;
     font-family: kulim;
 }
@@ -41,7 +41,7 @@ h2{
 td {
   padding: 2vw;
   background-color: #CCD8D8;
-  text-align: center;
+  text-align: right;
   border-color: #F7EFE5;
   border: solid #F7EFE5 1.5vw;
   width: 20%;
