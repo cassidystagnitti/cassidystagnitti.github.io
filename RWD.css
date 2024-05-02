@@ -22,6 +22,18 @@ body {
   background-color: #F7EFE5;;
 }
 
+#popup {
+  position: ;
+  display: block;
+  background-color: #CCD8D8;
+  width: 100%;
+  text-align: center;
+  padding: 1vh;
+  margin: 0;
+  font-family: koulen;
+  font-size: 2em; 
+}
+
 .content{
     color: #2B2B2B;
     padding: 40px;
