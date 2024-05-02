@@ -42,9 +42,15 @@ td {
   padding: 2vw;
   background-color: #CCD8D8;
   text-align: right;
-  border-color: #F7EFE5;
-  border: solid #F7EFE5 1.5vw;
+  border-color: #FFFCF5;
+  border: solid #FFFCF5 1.5vw;
   width: 20%;
+  border-radius: 2em;
+}
+
+#Skills{
+  background-color: #FFFCF5;
+  margin: 0;
 }
 
 .hero-image {
