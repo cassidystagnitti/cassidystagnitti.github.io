@@ -112,6 +112,12 @@ td {
   padding-top: 2vh;
   padding-bottom: 2vh;
 }
+
+#Learning {
+  padding-right: 1em;
+  color: #FFFCF5;
+}
+
 .nav-title a {
   color: #2B2B2B;
   font-family: Koulen;
