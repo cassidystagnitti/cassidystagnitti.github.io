@@ -55,6 +55,9 @@ body {
   .hero-image {height: 85vh;}
   .hero-text {font-size: 5vw; width: 90%}
 }
+@media only screen and (min-width: 2000px) {
+  .hero-image {height:100%}
+}
 
 #cassidy, #stagnitti {
     font-family: Koulen;
