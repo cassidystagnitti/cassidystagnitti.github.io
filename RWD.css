@@ -21,7 +21,9 @@ body {
   width: 100%; 
   background-color: #F7EFE5;;
 }
-
+#contantLinks {
+ padding: 20vw;
+}
 #popup {
   position: ;
   display: block;
